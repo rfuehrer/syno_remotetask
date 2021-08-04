@@ -1,0 +1,18 @@
+{
+    "server": {
+        "debug": true,
+        "port": 10001,
+        "listen": "0.0.0.0",
+        "magickey": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "tasks":{
+        "1000":{
+            "identifier": "abcde12345",
+            "command": ["/volume1/control/command1.sh"]
+        },
+        "1001": {
+            "identifier": "abcde98765",
+            "command": ["/volume1/control/command2.sh"]
+        }
+    }
+}
